@@ -18,9 +18,8 @@ public class SentenceUpperCase {
 //            String s5 = s4 + s2.substring (1);
 //            return s5;
 
-//            variant 2, with first letter saved as a substring and capitalized; the rest of the letters becone another substring and they are concatenated;
-//            iar restul literor alt substring, apoi concatenate
-
+//            variant 2, with first letter saved as a substring and capitalized; the rest of the letters become another substring and they are concatenated;
+//            
               String s2 = s1.toLowerCase();
               String s3 = s2.substring (0,1).toUpperCase();
               String s4 = s3 + s2.substring (1);
